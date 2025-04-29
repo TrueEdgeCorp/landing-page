@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-/* FOR HEADER SECTION */
+/* FOR HEADER SECTION --------------------------------------------*/
 
 a, ul {
     list-style: none;
@@ -66,7 +66,7 @@ a, ul {
     padding: 10px 30px;
 }
 
-/* FOR INFO SECTION */
+/* FOR INFO SECTION -----------------------------------------------*/
 
 .title {
     text-align: center;
@@ -80,7 +80,7 @@ a, ul {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 130px;
+    margin-bottom: 110px;
 }
 
 .item {
@@ -102,6 +102,30 @@ a, ul {
     border-radius: 50px 15px;
     max-width: 170px;
 }
+
+/* FOR QUOTE SECTION -----------------------------------------------*/
+
+.quotesec {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    color: #686868;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: end;
+}
+
+/* FOR SIGNUP SECTION AT BOTTOM PAGE -------------------------------------*/
 
 .header,
 .footer {
