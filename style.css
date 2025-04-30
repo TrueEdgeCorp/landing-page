@@ -127,6 +127,53 @@ a, ul {
 
 /* FOR SIGNUP SECTION AT BOTTOM PAGE -------------------------------------*/
 
+.signup {
+    margin: 100px 270px;
+}
+
+.leftside2 {
+    color: #f9faf8;
+}
+
+.signbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 45px 0;
+}
+
+.actiontext {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+.sign2 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 900;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+/* FOOTER SECTION ---------------------------------------------------------*/
+
+.copyright {
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
 .header,
 .footer {
     background-color: #1f2937;
