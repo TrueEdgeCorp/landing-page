@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    min-width: min-content;
 }
 
 /* FOR HEADER SECTION --------------------------------------------*/
@@ -19,6 +20,8 @@ a, ul {
 .header {
     display: flex;
     flex-direction: column;
+    min-width: 50px;
+    flex-wrap: wrap;
     padding: 0 300px;
     gap: 100px;
 }
@@ -66,6 +69,10 @@ a, ul {
     padding: 10px 30px;
 }
 
+.leftside {
+    min-width: 300px;
+}
+
 /* FOR INFO SECTION -----------------------------------------------*/
 
 .title {
@@ -74,6 +81,7 @@ a, ul {
     font-weight: 900;
     color: #1f2937;
     padding: 50px;
+    min-width: 1300px;
 }
 
 .imagetexts {
@@ -81,6 +89,7 @@ a, ul {
     justify-content: center;
     gap: 60px;
     margin-bottom: 110px;
+    min-width: 1400px;
 }
 
 .item {
@@ -116,12 +125,14 @@ a, ul {
     font-size: 36px;
     font-style: italic;
     text-align: justify;
+    min-width: 700px;
     color: #686868;
 }
 
 .signature {
     font-size: 24px;
     font-weight: 900;
+    min-width: 700px;
     text-align: end;
 }
 
@@ -142,6 +153,7 @@ a, ul {
     background-color: #3882f6;
     border-radius: 10px;
     padding: 45px 0;
+    min-width: 850px;
 }
 
 .actiontext {
