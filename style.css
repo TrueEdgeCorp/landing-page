@@ -67,6 +67,12 @@ a, ul {
     border-radius: 10px;
     border-style: none;
     padding: 10px 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.sign:active {
+    transform: scale(0.9);
 }
 
 .leftside {
@@ -174,6 +180,12 @@ a, ul {
     border-color: #f9faf8;
     border-radius: 10px;
     padding: 10px 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.sign2:active {
+    transform: scale(0.9);
 }
 
 /* FOOTER SECTION ---------------------------------------------------------*/
